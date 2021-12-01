@@ -1,0 +1,100 @@
+class InventoryTables {
+  final String? icon,
+      name,
+      inventory,
+      vendor,
+      sync,
+      lastsync,
+      syncplatform,
+      image;
+
+  InventoryTables(
+      {this.icon,
+      this.name,
+      this.inventory,
+      this.vendor,
+      this.sync,
+      this.lastsync,
+      this.syncplatform,
+      this.image});
+}
+
+List inventoryTables = [
+  InventoryTables(
+      icon: "assets/icons/xd_file.svg",
+      name: "backpack",
+      inventory: "52 in stock for 7 variants",
+      vendor: "Liam Fashions",
+      sync: "No",
+      lastsync: "",
+      syncplatform: "",
+      image: ""),
+  InventoryTables(
+      icon: "assets/icons/xd_file.svg",
+      name: "Adidas",
+      inventory: "52 in stock for 7 variants",
+      vendor: "Liam Fashions",
+      sync: "Yes",
+      lastsync: "2 days ago",
+      syncplatform: "Lazada",
+      image: ""),
+
+  InventoryTables(
+      icon: "assets/icons/xd_file.svg",
+      name: "backpack",
+      inventory: "52 in stock for 7 variants",
+      vendor: "Liam Fashions",
+      sync: "No",
+      lastsync: "",
+      syncplatform: "",
+      image: ""),
+  InventoryTables(
+      icon: "assets/icons/xd_file.svg",
+      name: "backpack",
+      inventory: "52 in stock for 7 variants",
+      vendor: "Liam Fashions",
+      sync: "No",
+      lastsync: "",
+      syncplatform: "",
+      image: ""),
+  // PlatformTables(
+  //   icon: "assets/icons/doc_file.svg",
+  //   name: "mChaat",
+  //   role: "15",
+  //   email: "10,000.00",
+  //   date: "80%",
+  //   posts: "Complete",
+  // ),
+  // UserTable(
+  //   icon: "assets/icons/sound_file.svg",
+  //   name: "Carousell",
+  //   role: "15",
+  //   email: "10,000.00",
+  //   date: "80%",
+  //   posts: "Complete",
+  // ),
+  // UserTable(
+  //   icon: "assets/icons/media_file.svg",
+  //   name: "A**** S**** K****",
+  //   role: "Line Manager",
+  //   email: "ah****az@google.com",
+  //   date: "23-02-2021",
+  //   posts: "2",
+  // ),
+  // UserTable(
+  //   icon: "assets/icons/pdf_file.svg",
+  //   name: "T***** S****",
+  //   role: "UI/UX Designer",
+  //   email: "te****cu@google.com",
+  //   date: "25-02-2021",
+  //   posts: "3",
+  // ),
+  // UserTable(
+  //   icon: "assets/icons/excle_file.svg",
+  //   name: "K***** D****",
+  //   role: "Business Analyst",
+  //   email: "ke****an@gmail.com",
+  //   date: "25-02-2021",
+  //   posts: "34",
+  // ),
+];
