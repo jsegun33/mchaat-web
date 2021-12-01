@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="mchaat_web">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="google-signin-client_id"    content="298447617033-afvu2ug9dsteo66sh05ro6cimqnit8ib.apps.googleusercontent.com">
+
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>mchaat_web</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+ <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+  <!--  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+ 
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-storage.js"></script>
+ 
+  <script src="https://api.daytonsquareroots.org/firebasedatabaseweb/v0.0.2/app.js" defer></script> -->
+  
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+       
+      apiKey: "AIzaSyDPHXD2e7J5e0jV6mJXYT8wYTnn7ysYbQ4",
+      authDomain: "mchaat-13797.firebaseapp.com",
+      databaseURL: "https://mchaat-13797-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "mchaat-13797",
+      storageBucket: "mchaat-13797.appspot.com",
+      messagingSenderId: "298447617033",
+      appId: "1:298447617033:web:799113e2ab6a2d37de8cd8",
+     measurementId: "G-ZHNGS2BVCC"
+  
+      
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
+  
+  ->
+  <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('flutter-first-frame', function () {
+          navigator.serviceWorker.register('flutter_service_worker.js');
+        });
+      }
+    </script>
+  
+  <script src="main.dart.js" type="application/javascript"></script>
+  </body>
+  </html>
+  
